@@ -1,0 +1,155 @@
+/******  Bug transitions  *******/
+.clean__transition * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
+}
+/******   reset  *******/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+
+    Ajout de mon style
+/*
+    ex: COULEURS : 
+        
+        TYPO : 
+        
+        ICONES : 
+        
+        MAPS : 
+*/
+
+/********************/
+/*** GENERALITES  ***/
+/********************/
+html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+}
+/*******************/
+/***** HEADER ******/
+/*******************/
+#home_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fill 0.3s ease forwards 6s;
+}
+#home_text path:nth-child(1) {
+  stroke-dasharray: 430.5px;
+  stroke-dashoffset: 430.5px;
+  animation: line_anim 2s ease forwards;
+}
+#home_text path:nth-child(2) {
+  stroke-dasharray: 330.83px;
+  stroke-dashoffset: 330.83px;
+  animation: line_anim 2s ease forwards 0.3s;
+}
+#home_text path:nth-child(3) {
+  stroke-dasharray: 206.84px;
+  stroke-dashoffset: 206.84px;
+  animation: line_anim 2s ease forwards 0.6s;
+}
+#home_text path:nth-child(4) {
+  stroke-dasharray: 402.6px;
+  stroke-dashoffset: 402.6px;
+  animation: line_anim 2s ease forwards 0.9s;
+}
+#home_text path:nth-child(5) {
+  stroke-dasharray: 346.88px;
+  stroke-dashoffset: 346.88px;
+  animation: line_anim 2s ease forwards 1.2s;
+}
+#home_text path:nth-child(6) {
+  stroke-dasharray: 349.98px;
+  stroke-dashoffset: 349.98px;
+  animation: line_anim 2s ease forwards 1.5s;
+}
+#home_text path:nth-child(7) {
+  stroke-dasharray: 307.32px;
+  stroke-dashoffset: 307.32px;
+  animation: line_anim 2s ease forwards 1.8s;
+}
+#home_text path:nth-child(8) {
+  stroke-dasharray: 399.04px;
+  stroke-dashoffset: 399.04px;
+  animation: line_anim 2s ease forwards 2.1s;
+}
+#home_text path:nth-child(9) {
+  stroke-dasharray: 346.88px;
+  stroke-dashoffset: 346.88px;
+  animation: line_anim 2s ease forwards 2.4s;
+}
+#home_text path:nth-child(10) {
+  stroke-dasharray: 346.88px;
+  stroke-dashoffset: 346.88px;
+  animation: line_anim 2s ease forwards 2.7s;
+}
+#home_text path:nth-child(11) {
+  stroke-dasharray: 200.89px;
+  stroke-dashoffset: 200.89px;
+  animation: line_anim 2s ease forwards 3s;
+}
+#home_text path:nth-child(12) {
+  stroke-dasharray: 349.46px;
+  stroke-dashoffset: 349.46px;
+  animation: line_anim 2s ease forwards 3.3s;
+}
+#home_text path:nth-child(13) {
+  stroke-dasharray: 430.5px;
+  stroke-dashoffset: 430.5px;
+  animation: line_anim 2s ease forwards 3.6s;
+}
+#home_text path:nth-child(14) {
+  stroke-dasharray: 200.81px;
+  stroke-dashoffset: 200.81px;
+  animation: line_anim 2s ease forwards 3.9s;
+}
+#home_text path:nth-child(15) {
+  stroke-dasharray: 346.28px;
+  stroke-dashoffset: 346.28px;
+  animation: line_anim 2s ease forwards 4.2s;
+}
+#home_text path:nth-child(16) {
+  stroke-dasharray: 436.09px;
+  stroke-dashoffset: 436.09px;
+  animation: line_anim 2s ease forwards 4.5s;
+}
+
+@keyframes line_anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
+
+/******************/
+/****** MAIN ******/
+/******************/
+
+/*******************/
+/***** FOOTER ******/
+/*******************/
